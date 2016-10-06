@@ -1,0 +1,78 @@
+/* GENERAL ****************************/
+
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  color: black;
+  font-family: 'Ruslan Display', cursive;
+  margin-left: 1.5em;
+}
+
+body {
+  background-color: #6C5E56;
+  color: #99928E;
+}
+
+/* NAVBAR *****************************/
+
+.aside-nav {
+  width: 25%;
+  float: left;
+  font-family: 'Ruslan Display', cursive;
+}
+
+/* CLASSES ****************************/
+
+.col-articles {
+  width: 60%;
+  float: left;
+}
+
+.col-articles h1,
+.col-articles h3 {
+  font-family: 'Lalezar', cursive;
+}
+
+.img-inset {
+  float: left;
+  margin-right: 1.5em; 
+}
+
+/* IDs ********************************/
+
+#branding {
+  width: 100%;
+  padding: 1em .5em;
+  background-color: #8B7084;
+  box-shadow: inset 0 0 10px #4F3F4B;
+}
+
+#branding img {
+  float: left;
+}
+
+#wrapper {
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* FOOTER *****************************/
+
+#circle-c {
+  clear: both;
+  text-align: center;
+}
+
+/**************************************/
+/**************************************/
+
+
+/*
+logo sidebar
+font-family: 'Ruslan Display', cursive;
+section headings
+font-family: 'Lalezar', cursive;
+body p tagline
+font-family: 'Raleway', sans-serif
+*/
