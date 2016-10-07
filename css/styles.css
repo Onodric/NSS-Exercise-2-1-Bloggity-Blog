@@ -40,7 +40,8 @@ body {
 
 /* IDs ********************************/
 
-#branding {
+#branding,
+#circle-c {
   width: 100%;
   padding: 1em .5em;
   background-color: #8B7084;
