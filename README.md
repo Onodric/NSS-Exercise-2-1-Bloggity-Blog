@@ -13,7 +13,7 @@ Build a basic blog page that has 5 articles and any random topics you want to ta
 1. Each article has a footer containing the author and publication date.
 1. Each article has at least one section.
 
-********** Milestone 2 CSS 1 **********
+********** Milestone 2 CSS 1 ********** done 2016.10.11
 
 ## Instructions
 
@@ -29,7 +29,7 @@ Copy and paste your blog article HTML into the `index.html` file for this exerci
 1. A different padding value.
 1. Each should have a border, but with rounded corners of different size (e.g. one article could have barely rounded borders, but the next one could be almost circular in shape)
 
-********** Milestone 2 CSS 4 **********
+********** Milestone 2 CSS 4 ********** done 2016.10.12
 
 ## Instructions
 

@@ -1,11 +1,11 @@
 /* GENERAL ****************************/
 
 h2 {
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: 600;
   color: black;
   font-family: 'Ruslan Display', cursive;
-  margin-left: 1.5em;
+  margin-left: 4em;
 }
 
 body {
@@ -14,7 +14,31 @@ body {
   max-width: 100%
 }
 
+a:visited {
+  color: initial;
+  text-decoration: none;
+}
+
 /* NAVBAR *****************************/
+
+.top-nav {
+  margin-right: 2em;
+}
+
+.top-nav li {
+  font-family: 'Ruslan Display', cursive;
+  font-size: .7em;
+  list-style: none;
+  padding: .5em;
+  margin: .25em;
+  display: inline-block;
+  background-color: #ead1c4;
+  color: #2e2e2e;
+  width: 8%;
+  height: 5%;
+  border-radius: 1em;
+  float: right;
+}
 
 .aside-nav {
   width: 25%;
@@ -22,15 +46,41 @@ body {
   font-family: 'Ruslan Display', cursive;
 }
 
+.aside-nav li {
+  background-color: #999eee;
+  padding: 5px;
+  list-style: none;
+}
+
+/*1. When the user hovers over one of the links, the color of the text should change.*/
+.m2-css-ex4-link1 a:hover {
+  color: #8e4a1f;
+}
+
+/*1. When the user hovers over one of the links, the background color of the element that contains the link should change.*/
+.m2-css-ex4-link2 a:hover {
+  background-color: #f2a621;
+}
+
+/*1. When the user clicks on one of the links, the element that contains the link should grow in size by 5px on the left and right.*/
+.m2-css-ex4-link3:active,
+.m2-css-ex4-link3:visited {
+  padding: 5px 10px;
+}
+
 /* CLASSES ****************************/
+.tagline {
+  float: left;
+}
 
 .blog-entry {
   margin: 1em 0;
 }
 
 .col-articles {
-  width: 60%;
+  width: 70%;
   float: left;
+  margin-left: 5%;
 }
 
 .col-articles h1,
@@ -114,9 +164,13 @@ body {
   border-radius: 10em;
 }
 
+#branding {
+  float: left;
+}
+
 #branding,
 #circle-c {
-  max-width: 100%;
+  width: 100%;
   padding: 1em .5em;
   background-color: #8B7084;
   box-shadow: inset 0 0 10px #4F3F4B;
@@ -130,6 +184,7 @@ body {
   width: 90%;
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
+  clear: both;
 }
 
 /* FOOTER *****************************/
@@ -141,6 +196,8 @@ body {
 
 /**************************************/
 /**************************************/
+
+
 
 
 /*
